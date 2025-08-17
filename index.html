@@ -8,8 +8,21 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* ändra till center om du vill ha HELT centrerat på höjden också */
+      background: #f9f9f9;
+    }
+    .container {
       max-width: 900px;
+      padding: 40px 20px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      margin: 40px 20px;
     }
     h1, h2 {
       color: #333;
@@ -23,66 +36,68 @@
 </head>
 <body>
 
-  <div class="lang-section">
-    <h1>Delete Account – Mini Memories</h1>
-    <p><strong>Last updated:</strong> 2025-08-17 • <strong>Developer:</strong> R&amp;M Group AB • <strong>Contact:</strong> info@rmdesign.se</p>
+  <div class="container">
+    <div class="lang-section">
+      <h1>Delete Account – Mini Memories</h1>
+      <p><strong>Last updated:</strong> 2025-08-17 • <strong>Developer:</strong> R&amp;M Group AB • <strong>Contact:</strong> info@rmdesign.se</p>
 
-    <h2>How to delete your account (in the app)</h2>
-    <ol>
-      <li>Open <strong>Mini Memories</strong> and sign in.</li>
-      <li>Tap your <strong>profile picture</strong>.</li>
-      <li>Go to <strong>Settings → Delete Account</strong>.</li>
-      <li>Enter the <strong>code shown on screen</strong> and confirm with your <strong>password</strong>.</li>
-    </ol>
-    <p><strong>What happens:</strong> Your account and all associated data are permanently deleted immediately: user profile, albums, child profiles, events, artworks, photos, descriptions, and preferences. We do <u>not</u> retain a recoverable copy. You will be signed out automatically.</p>
+      <h2>How to delete your account (in the app)</h2>
+      <ol>
+        <li>Open <strong>Mini Memories</strong> and sign in.</li>
+        <li>Tap your <strong>profile picture</strong>.</li>
+        <li>Go to <strong>Settings → Delete Account</strong>.</li>
+        <li>Enter the <strong>code shown on screen</strong> and confirm with your <strong>password</strong>.</li>
+      </ol>
+      <p><strong>What happens:</strong> Your account and all associated data are permanently deleted immediately: user profile, albums, child profiles, events, artworks, photos, descriptions, and preferences. We do <u>not</u> retain a recoverable copy. You will be signed out automatically.</p>
 
-    <h2>Delete specific data only (without deleting the account)</h2>
-    <ul>
-      <li>Delete photos or events via the item menu</li>
-      <li>Delete child profiles and albums from their respective menus</li>
-    </ul>
+      <h2>Delete specific data only (without deleting the account)</h2>
+      <ul>
+        <li>Delete photos or events via the item menu</li>
+        <li>Delete child profiles and albums from their respective menus</li>
+      </ul>
 
-    <h2>Alternative: Request by email</h2>
-    <p>If you cannot access the app, email us from your registered address at <strong>info@rmdesign.se</strong> with the subject <em>“Delete Mini Memories account”</em>.<br>
-    We will verify ownership and complete the deletion. Email requests are processed within <strong>30 days</strong>.</p>
+      <h2>Alternative: Request by email</h2>
+      <p>If you cannot access the app, email us from your registered address at <strong>info@rmdesign.se</strong> with the subject <em>“Delete Mini Memories account”</em>.<br>
+      We will verify ownership and complete the deletion. Email requests are processed within <strong>30 days</strong>.</p>
 
-    <h2>Data retention</h2>
-    <ul>
-      <li><strong>In-app deletion:</strong> All account data is removed immediately.</li>
-      <li><strong>Email requests:</strong> Processed within 30 days.</li>
-      <li><strong>Backups:</strong> If included in automated system backups, data is overwritten during our regular backup rotation. Backups are not used to restore deleted accounts.</li>
-    </ul>
-  </div>
+      <h2>Data retention</h2>
+      <ul>
+        <li><strong>In-app deletion:</strong> All account data is removed immediately.</li>
+        <li><strong>Email requests:</strong> Processed within 30 days.</li>
+        <li><strong>Backups:</strong> If included in automated system backups, data is overwritten during our regular backup rotation. Backups are not used to restore deleted accounts.</li>
+      </ul>
+    </div>
 
-  <div class="lang-section">
-    <h1>Ta bort konto – Mini Memories</h1>
-    <p><strong>Senast uppdaterad:</strong> 2025-08-17 • <strong>Utvecklare:</strong> R&amp;M Group AB • <strong>Kontakt:</strong> info@rmdesign.se</p>
+    <div class="lang-section">
+      <h1>Ta bort konto – Mini Memories</h1>
+      <p><strong>Senast uppdaterad:</strong> 2025-08-17 • <strong>Utvecklare:</strong> R&amp;M Group AB • <strong>Kontakt:</strong> info@rmdesign.se</p>
 
-    <h2>Så här tar du bort ditt konto (i appen)</h2>
-    <ol>
-      <li>Öppna <strong>Mini Memories</strong> och logga in.</li>
-      <li>Tryck på din <strong>profilbild</strong>.</li>
-      <li>Gå till <strong>Inställningar → Radera konto</strong>.</li>
-      <li>Skriv in <strong>koden som visas på skärmen</strong> och bekräfta med ditt <strong>lösenord</strong>.</li>
-    </ol>
-    <p><strong>Det som händer:</strong> Ditt konto och all kopplad data raderas <u>omedelbart</u>: användarprofil, album, barnprofiler, händelser, artworks, foton, texter och inställningar. Vi sparar <u>ingen återställningsbar kopia</u>. Du loggas ut direkt.</p>
+      <h2>Så här tar du bort ditt konto (i appen)</h2>
+      <ol>
+        <li>Öppna <strong>Mini Memories</strong> och logga in.</li>
+        <li>Tryck på din <strong>profilbild</strong>.</li>
+        <li>Gå till <strong>Inställningar → Radera konto</strong>.</li>
+        <li>Skriv in <strong>koden som visas på skärmen</strong> och bekräfta med ditt <strong>lösenord</strong>.</li>
+      </ol>
+      <p><strong>Det som händer:</strong> Ditt konto och all kopplad data raderas <u>omedelbart</u>: användarprofil, album, barnprofiler, händelser, artworks, foton, texter och inställningar. Vi sparar <u>ingen återställningsbar kopia</u>. Du loggas ut direkt.</p>
 
-    <h2>Radera enskild data (utan att ta bort kontot)</h2>
-    <ul>
-      <li>Ta bort foton eller händelser via objektets meny</li>
-      <li>Ta bort barnprofiler och album via respektive meny</li>
-    </ul>
+      <h2>Radera enskild data (utan att ta bort kontot)</h2>
+      <ul>
+        <li>Ta bort foton eller händelser via objektets meny</li>
+        <li>Ta bort barnprofiler och album via respektive meny</li>
+      </ul>
 
-    <h2>Alternativ: Begäran via mejl</h2>
-    <p>Om du inte kan nå appen, mejla från din registrerade adress till <strong>info@rmdesign.se</strong> med ämnet <em>“Ta bort Mini Memories-konto”</em>.<br>
-    Vi verifierar ägarskap och slutför borttagningen. Mejlhantering kan ta upp till <strong>30 dagar</strong>.</p>
+      <h2>Alternativ: Begäran via mejl</h2>
+      <p>Om du inte kan nå appen, mejla från din registrerade adress till <strong>info@rmdesign.se</strong> med ämnet <em>“Ta bort Mini Memories-konto”</em>.<br>
+      Vi verifierar ägarskap och slutför borttagningen. Mejlhantering kan ta upp till <strong>30 dagar</strong>.</p>
 
-    <h2>Lagring av data</h2>
-    <ul>
-      <li><strong>Via appen:</strong> All data raderas omedelbart.</li>
-      <li><strong>Via mejl:</strong> Hanteras inom 30 dagar.</li>
-      <li><strong>Backuper:</strong> Om data finns i automatiska systembackuper skrivs de över vid vår ordinarie rotationsprocess. Backuper används inte för att återställa raderade konton.</li>
-    </ul>
+      <h2>Lagring av data</h2>
+      <ul>
+        <li><strong>Via appen:</strong> All data raderas omedelbart.</li>
+        <li><strong>Via mejl:</strong> Hanteras inom 30 dagar.</li>
+        <li><strong>Backuper:</strong> Om data finns i automatiska systembackuper skrivs de över vid vår ordinarie rotationsprocess. Backuper används inte för att återställa raderade konton.</li>
+      </ul>
+    </div>
   </div>
 
 </body>
